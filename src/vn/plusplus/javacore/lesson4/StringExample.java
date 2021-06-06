@@ -8,6 +8,9 @@ public class StringExample {
         // Hello A
         char[] hello = {'H','e','l','l','o'};
 
+//        int a = 1;
+        Integer b = 1;
+
 //        hello = {'H','e','l','l','o', 'i'};
         //Nguyen Mong Thanh Nhi
 
