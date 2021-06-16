@@ -29,4 +29,13 @@ public class Student extends Human{
         showInfo();
 //        super.showInfo();
     }
+
+    public boolean kiemtraNgayNghi(String currentDay){
+        for(SchoolDay day : SchoolDay.values()){
+            if(currentDay.equals(day.name())){
+                return false;
+            }
+        }
+        return true;
+    }
 }
