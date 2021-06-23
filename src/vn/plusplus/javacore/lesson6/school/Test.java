@@ -21,7 +21,7 @@ public class Test {
         humans[2] = new Employee(7000);
         humans[3] = new Officer(9000);
 
-        ThiThuatToan hieu = new LamImplement();
+        ThiThuatToan hieu = new HieuImplement();
         System.out.println(hieu.demSoNguyenTo(10));
 
 //        humans[4] = new Human();

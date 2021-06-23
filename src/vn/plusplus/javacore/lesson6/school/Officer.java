@@ -10,7 +10,7 @@ public class Officer extends Human implements LuongThang, LuongQuy, LuongNam{
 
     @Override
     public double getMonthlySalary() {
-        return 0;
+        return 1000;
     }
 
     @Override
