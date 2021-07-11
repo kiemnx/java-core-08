@@ -1,6 +1,8 @@
 package vn.plusplus.javacore.lesson8;
 
-public class Student /*implements Comparable<Student>*/ {
+import java.io.Serializable;
+
+public class Student implements Serializable/*implements Comparable<Student>*/ {
     private float gpa;
     private String name;
     public Student(float gpa, String name) {
